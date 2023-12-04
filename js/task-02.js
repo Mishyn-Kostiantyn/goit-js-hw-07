@@ -30,7 +30,7 @@ alt: 'Zebras on Zebra',
 ];
 const listOfImages = document.querySelector(".gallery");
 const listOfImageItems = [];
-images.forEach(function (imagedata) { listOfImageItems.push(`<li class="item"><img src="${imagedata.url}" alt="${imagedata.alt}" width="500" heigth="300"/></li>`); });
+images.forEach(function (imagedata) { listOfImageItems.push(`<li class="item"><img src="${imagedata.url}" alt="${imagedata.alt}" width="360" heigth="300"/></li>`); });
 const liItems = listOfImageItems.join("");
 console.log(liItems);
 listOfImages.insertAdjacentHTML("beforeend",liItems);
