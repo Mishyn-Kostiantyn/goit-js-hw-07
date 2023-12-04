@@ -23,6 +23,7 @@ button {
   cursor: pointer;
   border-radius: 8px;
   background: #4e75ff;
+  border: none;
 }
 
 .gallery {
@@ -48,10 +49,31 @@ button {
   letter-spacing: 0.64px;
   width: 148px;
   height: 40px;
-  border-color: #4e75ff;
+
   outline: none;
 }
 .change-color:hover {
   background-color: #6c8cff;
-  border-color: #4e75ff;
+}
+#controls :nth-child(3) {
+  background-color: #ff4e4e;
+  width: 120px;
+  height: 40px;
+  margin-left: 16px;
+}
+#controls :nth-child(2) {
+  width: 120px;
+  height: 40px;
+  margin-left: 16px;
+}
+#controls :nth-child(2):hover {
+  background-color: #6c8cff;
+}
+#controls :nth-child(3):hover {
+  background-color: #ff7070;
+}
+#controls :nth-child(1) {
+  width: 150px;
+  border-radius: 8px;
+  border: 1px solid #808080;
 }
